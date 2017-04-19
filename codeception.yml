@@ -1,0 +1,16 @@
+suites:
+    unit:
+        path: .
+        actor: UnitTester
+        modules:
+            enabled:
+                - Asserts
+                - Mockery
+settings:
+    shuffle: true
+    lint: true
+paths:
+    tests: tests/unit
+    output: tests/unit/_output
+    support: tests/unit/_support
+    data: tests/unit

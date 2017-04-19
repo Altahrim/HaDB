@@ -1,0 +1,9 @@
+## Resources
+bin
+vendor
+
+## IDE
+.idea
+
+## Tmp
+error.log

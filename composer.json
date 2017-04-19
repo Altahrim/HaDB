@@ -1,0 +1,19 @@
+{
+  "name": "altahrim/hadb",
+  "description": "High Availability DB: wrapper for MySQLi object",
+  "version": "0.0.1",
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3",
+    "codeception/mockery-module": "*"
+  },
+  "require": {
+    "php": ">= 7.1",
+    "psr/log": "^1."
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
